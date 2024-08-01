@@ -29,4 +29,5 @@ if __name__ == "__main__":
             print(f"Title: {issue['title']}")
             print(f"URL: {issue['html_url']}")
             print(f"Repository: {issue['repository_url']}")
+            print(f"Issue: {issue['body']}")
             print("-" * 80)
